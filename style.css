@@ -119,4 +119,9 @@
     margin-top: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.overlay-text a:hover {
+    letter-spacing: 6px;
 }
