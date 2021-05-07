@@ -43,7 +43,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background: url(./icons/menu.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -51,7 +51,7 @@
 }
 
 .toggle.active {
-    background: url(https://i.ibb.co/rt3HybH/close.png);
+    background: url(./icons/close.png);
     background-repeat: no-repeat;
     background-size: 25 px;
     background-position: center;
@@ -123,4 +123,28 @@
 
 .overlay-text a:hover {
     letter-spacing: 6px;
+}
+
+.social {
+    position: absolute;
+    /* bottom: 0px; */
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social img {
+    width: 50px;
+}
+
+.about-me {
+    display: flex;
+
 }
