@@ -7,6 +7,41 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+/* section:nth-child(1) {
+    background: lightblue;
+}
+
+section:nth-child(2) {
+    background: lightgreen;
+}
+
+section:nth-child(3) {
+    background: purple;
+}
+
+section:nth-child(4) {
+    background: red;
+}
+
+section:nth-child(5) {
+    background: yellow;
+} */
+
 .showcase {
     position: absolute;
     right: 0;
@@ -20,6 +55,11 @@
     background: #111;
     z-index: 2;
     color: #fff;
+    transition: 0.5s;
+}
+
+.showcase.active {
+    right: 300px;
 }
 
 .showcase header {
@@ -69,7 +109,7 @@
 }
 
 .text {
-    position: relative;
+    position: absolute;
     z-index: 10;
 }
 
@@ -94,7 +134,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: #03A9f4;
     mix-blend-mode: overlay;
 }
@@ -103,13 +143,11 @@
     display: inline-block;
     position: absolute;
     bottom: 0;
-
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
-
     font-size: 1em;
     background: #fff;
     padding: 10px 30px;
@@ -154,4 +192,66 @@
 
 .social img {
     width: 50px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    position: relative;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+}
+
+.menu ul li a:hover {
+    color: #03A9f4;
+}
+
+.about-me {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.about-me p {
+    display: flex;
+
+
+
+}
+
+@media(max-width: 798px) {
+
+    .showcase,
+    .showcase header {
+        padding: 40px;
+
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
 }
