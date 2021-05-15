@@ -55,7 +55,7 @@ section:nth-child(5) {
     background: #111;
     z-index: 2;
     color: #fff;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .showcase.active {
@@ -91,7 +91,10 @@ section:nth-child(5) {
 }
 
 .toggle.active {
-    background: url(./icons/close.png);
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(./icons/close.svg);
     background-repeat: no-repeat;
     background-size: 25 px;
     background-position: center;
