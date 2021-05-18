@@ -240,6 +240,7 @@ section:nth-child(5) {
 
 .about-me img {
     border-radius: 400px;
+    border: #03A9f4;
 }
 
 @media(max-width: 798px) {
