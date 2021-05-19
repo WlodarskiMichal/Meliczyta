@@ -16,7 +16,6 @@ body {
     margin: 0;
 }
 
-
 section {
     display: flex;
     height: 100vh;
@@ -226,6 +225,12 @@ section:nth-child(5) {
     color: #03A9f4;
 }
 
+.player-and-about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 .about-me {
     padding: 40px;
     display: flex;
@@ -236,9 +241,12 @@ section:nth-child(5) {
 
 .about-me p {
     display: flex;
+    padding: 10px;
+    text-align: center;
 }
 
 .about-me img {
+    height: 500px;
     border-radius: 400px;
     border: #03A9f4;
 }
