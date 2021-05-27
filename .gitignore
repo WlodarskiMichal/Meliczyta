@@ -1,6 +1,10 @@
 How-to-and-a-checklist.txt
-/video
+.meliczyta_video
+.video
 meliczyta_video.mp4
 how-it-should-look.png
-/photo
-/node_modules
+.node_modules
+.video_video
+ git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch .video/meliczyta_video' \
+  --prune-empty --tag-name-filter cat -- --all
