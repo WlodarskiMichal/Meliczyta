@@ -12,3 +12,6 @@ document.querySelectorAll('.menuItems').forEach(item => {
         showcase.classList.toggle('active')
 })
 })
+
+
+
