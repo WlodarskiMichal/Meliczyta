@@ -4,7 +4,7 @@
   "description": "In progress... Website for lector, made with Vanilla JS and CSS3. Responsive and mobile friendy design, created with video in the background on the landing page, that is on loop. Sample of voice player is gonna be in the webiste, as well as info about work, and how to contact lector.",
   "main": "purecookie.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwind build src/style.css -o dist/style.css"
   },
   "repository": {
     "type": "git",
