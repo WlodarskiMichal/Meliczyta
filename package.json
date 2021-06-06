@@ -1,0 +1,23 @@
+{
+  "name": "Meliczyta",
+  "version": "1.0.0",
+  "description": "In progress... Website for lector, made with Vanilla JS and CSS3. Responsive and mobile friendy design, created with video in the background on the landing page, that is on loop. Sample of voice player is gonna be in the webiste, as well as info about work, and how to contact lector.",
+  "main": "purecookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WlodarskiMichal/Meliczyta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WlodarskiMichal/Meliczyta/issues"
+  },
+  "homepage": "https://github.com/WlodarskiMichal/Meliczyta#readme",
+  "dependencies": {
+    "tailwindcss": "^2.1.4"
+  }
+}
