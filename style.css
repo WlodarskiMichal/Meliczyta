@@ -271,7 +271,7 @@ section:nth-child(5) {
     right: 0; 
     
     /* width: 70%; */
-    padding-top: 40px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -290,6 +290,7 @@ section:nth-child(5) {
 
 .about-me img {
     /* margin-right: 50px; */
+
     align-self: center;
     max-height: 300px;
     border-radius: 400px;

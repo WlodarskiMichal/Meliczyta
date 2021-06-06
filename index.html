@@ -120,7 +120,47 @@
                 <!-- <div class="about-me1" id="about-me1"><img src="./photo/photo_of_Maciej.svg" alt="photo-of-Maciej" class="profile-photo1"><p class="text-about-me1">sem viverra aliquet eget sit amet tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus ices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque</p></div> -->
                 
                 <div class="about-me" ><img id="about-me-link" c src="./photo/photo_of_Maciej.svg" alt="photo-of-Maciej" class="profile-photo"><p lass="text-about-me">sem viverra aliquet eget sit amet tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus ices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque</p></div></section>    
-            <section></section>
+            <section>
+              <!-- Form Started -->
+	<div class="container form-top">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+				<div class="panel panel-danger">
+					<div class="panel-body">
+						<form id="reused_form">
+						 	<div class="form-group">
+						 		<label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+						 		<input type="text" name="name" class="form-control" placeholder="Enter Name">
+						 	</div>
+						 	<div class="form-group">
+						 		<label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+						 		<input type="email" name="email" class="form-control" placeholder="Enter Email">
+						 	</div>
+						 	<div class="form-group">
+						 		<label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+						 		<textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+						 	</div>
+
+
+						 	<div class="form-group">
+						 		<button class="btn btn-raised btn-block btn-danger">Post →</button>
+						 	</div>
+						</form>
+						<div id="error_message" style="width:100%; height:100%; display:none; ">
+						<h4>Error</h4>
+						Sorry there was an error sending your form.
+						</div>
+						<div id="success_message" style="width:100%; height:100%; display:none; ">
+						<h2>Success! Your Message was Sent Successfully.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Form Ended -->
+
+            </section>
         <script src="script.js"></script>
     </body>
 </html>
