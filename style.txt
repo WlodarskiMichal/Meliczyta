@@ -59,7 +59,36 @@
    padding: 20px; */
 }
 
+.social {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 20%;
+    height: 20%;
+}
 
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    /* margin-right: 20px; */
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+.social img {
+    width: 50px;
+}
 
 
 
@@ -70,7 +99,35 @@
     
 } */
 
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    position: absolute;
+    z-index: 10;
+}
+
+.text h2 {
+    font-size: 5em;
+    line-height: 1em;
+}
+
+.text h3 {
+    font-size: 4em;
+}
+
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    max-width: 700px;
+}
 
 
 SMALL SCREEN 
@@ -100,3 +157,14 @@ SMALL SCREEN
         height: 150px;
 
     }
+
+    
+
+
+
+            <!-- <ul class="social container">
+                <li><a href="https://www.facebook.com/meliczyta/" target=”_blank”><img src="./icons/facebook.svg" alt=""></a></li>
+                <li><a href="http://www.tiktok.com/@meliczyta" target=”_blank”><img src="./icons/tiktok.svg" alt=""></a></li>
+                <li><a href="mailto:meliczyta@gmail.com"><img src="./icons/gmail.svg" alt=""></a></li>
+                <li><a href="https://www.instagram.com/meliczyta/" target=”_blank”><img src="./icons/instagram.svg" alt=""></a></li>
+            </ul> -->
