@@ -1,0 +1,170 @@
+.about-me {
+    position: absolute;
+    right: 0; 
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.about-me p {
+    display: flex;
+    padding: 50px;
+    text-align: justify;
+    width: 50%;
+    /* max-width: 700px; */
+    /* align-self: flex-end; */
+}
+
+.about-me img {
+    /* margin-right: 50px; */
+    align-self: center;
+    max-height: 300px;
+    border-radius: 400px;
+    border: 2px solid #fc8d5a;
+}
+
+
+.player {
+    /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* padding-left: 40px; */
+    /* width:30%; */
+    /* margin-right: 10px; */
+    /* align-items: center; */
+    /* margin-left: 40px; */
+    
+}
+
+
+.player audio {
+    /* display: flex; */
+
+    width: 90%;
+}
+
+.player p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    /* margin-top:10px;
+   padding: 20px; */
+}
+
+.social {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 20%;
+    height: 20%;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    /* margin-right: 20px; */
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+.social img {
+    width: 50px;
+}
+
+
+
+/* .sampleplayer audio {
+    padding: 17px;
+    
+    filter: sepia(100%) saturate(50%) grayscale(1) contrast(50%) invert(99%);
+    
+} */
+
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    position: absolute;
+    z-index: 10;
+}
+
+.text h2 {
+    font-size: 5em;
+    line-height: 1em;
+}
+
+.text h3 {
+    font-size: 4em;
+}
+
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    max-width: 700px;
+}
+
+
+SMALL SCREEN 
+
+/* 
+    .social {
+        padding-left: 150px;
+        padding-bottom: 20px;
+    } */
+
+    /* .social li {
+        margin-left: 1px;
+    }
+
+    .social li a {
+        margin-left: 0px;
+    } */
+
+
+        .about-me{
+        align-items: center;
+    }
+    .about-me p{
+        padding:15px;
+    }
+    .about-me img {
+        height: 150px;
+
+    }
+
+    
+
+
+
+            <!-- <ul class="social container">
+                <li><a href="https://www.facebook.com/meliczyta/" target=”_blank”><img src="./icons/facebook.svg" alt=""></a></li>
+                <li><a href="http://www.tiktok.com/@meliczyta" target=”_blank”><img src="./icons/tiktok.svg" alt=""></a></li>
+                <li><a href="mailto:meliczyta@gmail.com"><img src="./icons/gmail.svg" alt=""></a></li>
+                <li><a href="https://www.instagram.com/meliczyta/" target=”_blank”><img src="./icons/instagram.svg" alt=""></a></li>
+            </ul> -->
