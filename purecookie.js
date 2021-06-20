@@ -1,10 +1,7 @@
-// --- Config --- //
-var purecookieTitle = "Ciasteczka."; // Title
+var purecookieTitle = "Ciasteczka."; 
 var purecookieDesc = "Używając tej strony zgadzasz się na to że ja nie gromadzę Twoich danych, nie przetwarzam i nie sprzedaję ich dalej ;)"; // Description
-var purecookieLink = ''; // Cookiepolicy link
-var purecookieButton = "Dzięki!"; // Button text
-// ---        --- //
-
+var purecookieLink = ''; 
+var purecookieButton = "Dzięki!"; 
 
 function pureFadeIn(elem, display){
   var el = document.getElementById(elem);
