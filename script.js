@@ -12,14 +12,15 @@ const audioEight = document.getElementById('audio-8');
 const audioNine = document.getElementById('audio-9');
 
 menuToggle.addEventListener('click', () => {
+    toggleMenu();
+})
+function toggleMenu(){
     menuToggle.classList.toggle('active')
     showcase.classList.toggle('active')
-})
-
+}
 document.querySelectorAll('.menuItems').forEach(item => {
     item.addEventListener('click', () => {
-        menuToggle.classList.toggle('active')
-        showcase.classList.toggle('active')
+        toggleMenu();
 })
 })
 
