@@ -6,28 +6,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
-
-/* body {
-    height: 100%;
-    
-} */
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
+    /* min-height: -webkit-fill-available; */
     margin: 0;
+    height: 100%;
   }
   
-  html {
-    height: -webkit-fill-available;
-  }
   
 section {
     display: flex;
     height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 .showcase {
