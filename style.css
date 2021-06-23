@@ -158,10 +158,10 @@ section {
 }
 
 .profile-photo {
-    border-color: #03A9f4;
-    -moz-box-shadow: 2px 2px 4px 0px #9aa2a5;
-    -webkit-box-shadow:  2px 2px 4px 0px #03A9f4;
-    box-shadow: 2px 2px 4px 0px #03A9f4;
+    border-color: #636161;
+    -moz-box-shadow: 2px 2px 4px 0px #636161;
+    -webkit-box-shadow:  2px 2px 4px 0px #636161;
+    box-shadow: 2px 2px 4px 0px #636161;
     -moz-border-radius:10px ;
     -webkit-border-radius:10px ;
     border-radius:10px ;
@@ -186,9 +186,9 @@ audio
     -moz-transition:all 0.3s linear;
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
-    -moz-box-shadow: 2px 2px 4px 0px #fb7438;
-    -webkit-box-shadow:  2px 2px 4px 0px #fb7438;
-    box-shadow: 2px 2px 4px 0px #fb7438;
+    -moz-box-shadow: 2px 2px 4px 0px #636161;
+    -webkit-box-shadow:  2px 2px 4px 0px #636161;
+    box-shadow: 2px 2px 4px 0px #636161;
     -moz-border-radius:10px ;
     -webkit-border-radius:10px ;
     border-radius:10px ;
@@ -209,9 +209,9 @@ audio
     -moz-transition:all 0.3s linear;
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
-    -moz-box-shadow: 2px 2px 4px 0px #fb7438;
-    -webkit-box-shadow:  2px 2px 4px 0px #fb7438;
-    box-shadow: 2px 2px 4px 0px #fb7438;
+    -moz-box-shadow: 2px 2px 4px 0px #636161;
+    -webkit-box-shadow:  2px 2px 4px 0px #636161;
+    box-shadow: 2px 2px 4px 0px #636161;
 }
 
 .video-container iframe, .video-container object, .video-container embed { 
