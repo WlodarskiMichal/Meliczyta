@@ -10,14 +10,24 @@
     scroll-behavior: smooth;
 } */
 
-body {
+/* body {
     height: 100%;
+    
+} */
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
     margin: 0;
-}
-
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+  
 section {
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 
 .showcase {
@@ -108,7 +118,7 @@ section {
     text-align: center;
     font-size: 1em;
     background: #fff;
-    padding: 30px 60px;
+    padding: 20px 40px;
     text-decoration: none;
     color: #111;
     margin-top: 10px;
