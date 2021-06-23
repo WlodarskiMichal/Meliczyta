@@ -10,7 +10,7 @@
     <link href="tailwind.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="purecookie.css" async />
 
-    <script src="purecookie.js" async></script>
+    <!-- <script src="purecookie.js" async></script> -->
 
     <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg">
     <link rel="alternate icon" href="./icons/favicon.png">
@@ -23,7 +23,7 @@
         <section class="showcase">
             <header>
                 <h2 class="logo pl-1 md:pl-4  font-bold md:text-2xl uppercase text-white cursor-pointer" >
-                  <a href="#home">Meliczyta</a>
+                  <a href="#start">Meliczyta</a>
                 </h2>
                 <div class="toggle">
                 </div>
@@ -38,14 +38,14 @@
                 <!-- <p class="introduction container pl-4 md:pl-10 pr-10 xl:w-1/2  w-auto text-lg md:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis, dui vel placerat semper,nisl dui semper massa, et malesuada turpis lacus et odio. Etiam mollis ipsum vitae malesuada aliquam.  </p> -->
             </div>
 
-            <div class="overlay-text font-bold"><a href="#player">Usłysz więcej &#9660;</a></div>
+            <div class="overlay-text font-bold"><a onClick="scrollToSmoothly(800,300)">Usłysz więcej &#9660;</a></div>
 
             <div class="container mx-auto py-10 w-3/4 my-36 z-50 ">
               <div class=" flex flex-row absolute bottom-14 w-3/4 mx-auto">
-                <div class="mx-auto py-2 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a  href="https://www.facebook.com/meliczyta/" target=”_blank”><img src="./icons/facebook.svg" alt=""></a></div>
-                <div class="mx-auto py-2 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="http://www.tiktok.com/@meliczyta" target=”_blank”><img src="./icons/tiktok.svg" alt=""></a></div>
-                <div class="mx-auto py-2 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="mailto:meliczyta@gmail.com"><img src="./icons/gmail.svg" alt=""></a></div>
-                <div class="mx-auto py-2 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="https://www.instagram.com/meliczyta/" target=”_blank”><img src="./icons/instagram.svg" alt=""></a></div>
+                <div class="mx-auto py-10 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a  href="https://www.facebook.com/meliczyta/" target=”_blank”><img src="./icons/facebook.svg" alt=""></a></div>
+                <div class="mx-auto py-10 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="http://www.tiktok.com/@meliczyta" target=”_blank”><img src="./icons/tiktok.svg" alt=""></a></div>
+                <div class="mx-auto py-10 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="mailto:meliczyta@gmail.com"><img src="./icons/gmail.svg" alt=""></a></div>
+                <div class="mx-auto py-10 w-6 lg:w-12 transform transition duration-500 hover:scale-150 filter invert"><a href="https://www.instagram.com/meliczyta/" target=”_blank”><img src="./icons/instagram.svg" alt=""></a></div>
               </div>
 
             </div>
@@ -58,59 +58,59 @@
         <div class="menu">
             <ul>
                 <li><a class="menuItems" href="#start">Home</a></li>
-                <li><a class="menuItems"  href="#player">Próbki głosu</a></li>
+                <li><a class="menuItems" href="#player">Próbki głosu</a></li>
                 <li><a class="menuItems"  href="#about-me-link">O mnie</a></li>
                 <li><a class="menuItems"  href="#contact">Kontakt</a></li>
             </ul>
         </div>
         <section></section>
             <div class="player container mx-auto w-10/12 lg:w-8/12" >
-              <div class="video-container">
+              <div class="video-container "  id="player" >
                 <iframe src="https://www.youtube-nocookie.com/embed/z6yYdT2gJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
-              <div><p id="player" class="text-xl mt-10 py-2 px-2 text-left mx-auto">Próba głosu film 1</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Próba głosu film 1</p>
               <audio id="audio-1" class="audio container mx-auto" controls >
                 <source src="./sounds/film-1-maciej-melcer.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio> </div>
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Próba głosu film 2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Próba głosu film 2</p>
               <audio id="audio-2" class="audio container mx-auto" controls >
                 <source src="./sounds/film-2-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div>
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Narracja </p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Narracja </p>
             <audio id="audio-3" class="audio container mx-auto" controls >
                 <source src="./sounds/narracja-1-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-4" class="audio container mx-auto" controls >
                 <source src="./sounds/narracja-2-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-5" class="audio container mx-auto" controls >
                 <source src="./sounds/narracja-3-Maciej-Melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-6" class="audio container mx-auto" controls >
                 <source src="./sounds/reklama-1-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-7" class="audio container mx-auto" controls >
                 <source src="./sounds/reklama-2-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-8" class="audio container mx-auto" controls >
                 <source src="./sounds/reklama-3-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
 
-              <div><p class="text-xl mt-10 py-2 px-2 text-left mx-auto">Film pt.2</p>
+              <div><p class="text-xl mt-10 py-2 px-2 text-center mx-auto">Film pt.2</p>
             <audio id="audio-9" class="audio container mx-auto" controls >
                 <source src="./sounds/reklama-4-maciej-melcer.mp3" type="audio/mpeg">
               </audio> </div> 
@@ -120,8 +120,8 @@
                 
                     </div>
                 
-                <div class="about-me  container mx-auto py-10 w-10/12 lg:w-8/12 my-36" >
-                  <img class="profile-photo rounded-3xl mx-auto w-72 m-10 border-solid border-2 border-yellow-600" id="about-me-link" src="./photo/photo_of_Maciej.svg" alt="photo-of-Maciej" >
+                <div class="about-me  container mx-auto py-10 w-10/12 lg:w-8/12 my-6" >
+                  <img class="profile-photo  mx-auto w-72 m-10 " id="about-me-link" src="./photo/photo_of_Maciej.svg" alt="photo-of-Maciej" >
                   <h2 class="text-2xl py-2 ">Coś o mnie: </h2>
                   <p class="text-about-me  text-lg">sem viverra aliquet eget sit amet tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus ices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque</p></div>  
 
@@ -145,5 +145,7 @@
 
             <footer ><p>Created by Michal Wlodarski <a  href="https://github.com/wlodarskimichal">Github</a></p></footer>
         <script src="script.js"></script>
+        <script src="./zenscroll-latest/zenscroll-min.js"></script>
+        <!-- <script src="purecookie.js"></script> -->
     </body>
 </html>

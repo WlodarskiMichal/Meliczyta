@@ -6,9 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 body {
     height: 100%;
@@ -48,6 +48,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.menuItems{
+    cursor: pointer;
 }
 
 .toggle {
@@ -104,7 +108,7 @@ section {
     text-align: center;
     font-size: 1em;
     background: #fff;
-    padding: 10px 30px;
+    padding: 30px 60px;
     text-decoration: none;
     color: #111;
     margin-top: 10px;
@@ -119,6 +123,7 @@ section {
 
 .social{
     filter: invert(1) !important;
+
 }
 
 .menu {
@@ -151,32 +156,42 @@ section {
     color: #fb7438;
 }
 
+.profile-photo {
+    border-color: #03A9f4;
+    -moz-box-shadow: 2px 2px 4px 0px #9aa2a5;
+    -webkit-box-shadow:  2px 2px 4px 0px #03A9f4;
+    box-shadow: 2px 2px 4px 0px #03A9f4;
+    -moz-border-radius:10px ;
+    -webkit-border-radius:10px ;
+    border-radius:10px ;
+}
+
+
 
 
 audio:hover, audio:focus, audio:active
-{
--webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
--moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
--webkit-transform: scale(1.01);
--moz-transform: scale(1.01);
-transform: scale(1.01);
-}
+    {
+    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
+    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    transform: scale(1.01);
+    }
 
 audio
-{
-
--webkit-transition:all 0.3s linear;
--moz-transition:all 0.3s linear;
--o-transition:all 0.3s linear;
-transition:all 0.3s linear;
--moz-box-shadow: 2px 2px 4px 0px #fb7438;
--webkit-box-shadow:  2px 2px 4px 0px #fb7438;
-box-shadow: 2px 2px 4px 0px #fb7438;
--moz-border-radius:30px 30px 30px 30px ;
--webkit-border-radius:30px 30px 30px 30px ;
-border-radius:30px 30px 30px 30px ;
-}
+    {
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #fb7438;
+    -webkit-box-shadow:  2px 2px 4px 0px #fb7438;
+    box-shadow: 2px 2px 4px 0px #fb7438;
+    -moz-border-radius:10px ;
+    -webkit-border-radius:10px ;
+    border-radius:10px ;
+    }
 
 .video-container{
     margin-top: 60px;
@@ -185,7 +200,9 @@ border-radius:30px 30px 30px 30px ;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
-    border-radius: 30px;
+    -moz-border-radius:10px ;
+    -webkit-border-radius:10px ;
+    border-radius:10px ;
 
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
@@ -198,6 +215,7 @@ border-radius:30px 30px 30px 30px ;
 
 .video-container iframe, .video-container object, .video-container embed { 
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;

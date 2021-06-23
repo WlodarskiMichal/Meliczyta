@@ -1,6 +1,5 @@
 const menuToggle = document.querySelector('.toggle')
 const showcase = document.querySelector('.showcase')
-
 const audioOne = document.getElementById('audio-1');
 const audioTwo = document.getElementById('audio-2');
 const audioThree = document.getElementById('audio-3');
@@ -11,13 +10,18 @@ const audioSeven = document.getElementById('audio-7');
 const audioEight = document.getElementById('audio-8');
 const audioNine = document.getElementById('audio-9');
 
-menuToggle.addEventListener('click', () => {
-    toggleMenu();
-})
+
+
+
 function toggleMenu(){
     menuToggle.classList.toggle('active')
     showcase.classList.toggle('active')
 }
+
+menuToggle.addEventListener('click', () => {
+    toggleMenu();
+    })
+
 document.querySelectorAll('.menuItems').forEach(item => {
     item.addEventListener('click', () => {
         toggleMenu();
