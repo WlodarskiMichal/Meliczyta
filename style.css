@@ -13,16 +13,16 @@ body {
     margin: 0;
     height: 100%;
   }
-  body {
+  /* body {
     min-height: 100vh;
-    /* mobile viewport bug fix */
+
     min-height: -webkit-fill-available;
   }
   
   html {
     height: -webkit-fill-available;
   }
-  
+   */
   
 section {
     display: flex;
@@ -119,7 +119,7 @@ section {
     font-size: 1em;
     background: #fff;
     padding: 10px 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-decoration: none;
     color: #111;
     margin-top: 10px;
