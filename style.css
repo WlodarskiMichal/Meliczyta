@@ -18,15 +18,15 @@ body {
 
     min-height: -webkit-fill-available;
   }
-  
+
   html {
     height: -webkit-fill-available;
   }
    */
-  
+
 section {
     display: flex;
-    height: 100vh;  
+    height: 100vh;
     max-height: -webkit-fill-available;
 }
 
@@ -81,7 +81,7 @@ section {
     height: 60px;
     background: url(./icons/close.svg);
     background-repeat: no-repeat;
-    background-size: 25 px;
+    background-size: 25px;
     background-position: center;
     cursor: pointer;
 }
@@ -119,7 +119,6 @@ section {
     font-size: 1em;
     background: #fff;
     padding: 10px 40px;
-    padding-bottom: 10px;
     text-decoration: none;
     color: #111;
     margin-top: 10px;
@@ -171,62 +170,88 @@ section {
     border-color: #636161;
     -moz-box-shadow: 2px 2px 4px 0px #636161;
     -webkit-box-shadow:  2px 2px 4px 0px #636161;
-    box-shadow: 2px 2px 4px 0px #636161;
-    -moz-border-radius:10px ;
-    -webkit-border-radius:10px ;
-    border-radius:10px ;
+    /*box-shadow: 2px 2px 4px 0px #636161;*/
+    /*-moz-border-radius:10px ;*/
+    /*-webkit-border-radius:10px ;*/
+    /*border-radius:10px ;*/
 }
 
 
 
 
-audio:hover, audio:focus, audio:active
-    {
-    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
-    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
-    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    transform: scale(1.01);
-    }
+/*audio:hover, audio:focus, audio:active*/
+/*    {*/
+/*    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);*/
+/*    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);*/
+/*    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.2);*/
+/*    -webkit-transform: scale(1.01);*/
+/*    -moz-transform: scale(1.01);*/
+/*    transform: scale(1.01);*/
+/*    }*/
 
-audio
-    {
-    -webkit-transition:all 0.3s linear;
-    -moz-transition:all 0.3s linear;
-    -o-transition:all 0.3s linear;
-    transition:all 0.3s linear;
-    -moz-box-shadow: 2px 2px 4px 0px #636161;
-    -webkit-box-shadow:  2px 2px 4px 0px #636161;
-    box-shadow: 2px 2px 4px 0px #636161;
-    -moz-border-radius:10px ;
-    -webkit-border-radius:10px ;
-    border-radius:10px ;
-    }
+/*audio*/
+/*    {*/
+/*    -webkit-transition:all 0.3s linear;*/
+/*    -moz-transition:all 0.3s linear;*/
+/*    -o-transition:all 0.3s linear;*/
+/*    transition:all 0.3s linear;*/
+/*    -moz-box-shadow: 2px 2px 4px 0px #636161;*/
+/*    -webkit-box-shadow:  2px 2px 4px 0px #636161;*/
+/*    box-shadow: 2px 2px 4px 0px #636161;*/
+/*    -moz-border-radius:10px ;*/
+/*    -webkit-border-radius:10px ;*/
+/*    border-radius:10px ;*/
+/*    }*/
 
-.video-container{
-    margin-top: 60px;
+/*.video-container{*/
+/*    margin: 10px;*/
+/*    position: relative;*/
+/*    padding: 30px;*/
+/*    width: 100%;*/
+/*    height: 500px;*/
+/*    overflow: hidden;*/
+/*    align-items: center;*/
+/*}*/
+.about-me {
+    margin: 10px;
+}
+
+.video-container {
+    margin: 10px;
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
     overflow: hidden;
-    -moz-border-radius:10px ;
-    -webkit-border-radius:10px ;
-    border-radius:10px ;
-
-    -webkit-transition:all 0.3s linear;
-    -moz-transition:all 0.3s linear;
-    -o-transition:all 0.3s linear;
-    transition:all 0.3s linear;
-    -moz-box-shadow: 2px 2px 4px 0px #636161;
-    -webkit-box-shadow:  2px 2px 4px 0px #636161;
-    box-shadow: 2px 2px 4px 0px #636161;
+    width: 100%;
 }
 
-.video-container iframe, .video-container object, .video-container embed { 
+.video-container::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.video-container iframe {
     position: absolute;
-    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.audio-container{
+    color: white;
+    margin: 10px;
+    background-color: #4b4c4d;
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+
     top: 0;
     left: 0;
     width: 100%;
@@ -234,8 +259,8 @@ audio
 }
 
 footer {
-    font-size: 0.7em; 
-    padding: 20px; 
+    font-size: 0.7em;
+    padding: 20px;
     text-decoration: none;
 }
 
